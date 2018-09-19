@@ -1,0 +1,156 @@
+.spacer-instruction {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .btn-inst {
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #f68b23;
+    box-shadow: 0.3px 1px 1px #888888;
+  }
+  
+  .btn-inst:hover {
+    margin-top: -2px;
+    margin-bottom: 2px;
+  }
+  
+  
+  /* modal */
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row>.column {
+    padding: 0 8px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    ;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  /* The Close Button */
+  .close {
+    padding: 0 9px 9px 9px;
+    color: #925454;
+    background: white;
+    position: absolute;
+    border-radius: 5px;
+    top: -35px;
+    right: 0px;
+    font-size: 35px;
+    font-weight: bold;
+    opacity: 1;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  
+  .modal h3 {
+    padding-top: 30px;
+    color: #282828;
+  }
+  
+  .modal h6,
+  .modal h3,
+  .bonus-points,
+  .rules-points {
+    color: #696767;
+  }
+  
+  /* ul list dash */
+  
+  ul {
+    list-style-type: none;
+    /*use padding to move list item from left to right*/
+    padding-left: 1em;
+  }
+  
+  ul li:before {
+    content: "–";
+    position: absolute;
+    /*change margin to move dash around*/
+    margin-left: -1em;
+  }
+  
+  ul li {
+    color: grey;
+  }
+  
+  .bonus-points,
+  .rules-points {
+    font-weight: bold;
+  }
+  
+  #photos:before,
+  #blog:before,
+  #form:before,
+  #places:before{
+      padding-top:50px;
+  }
+  

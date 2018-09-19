@@ -1,0 +1,79 @@
+.spacer-places{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.places-categories {
+  margin-top: 50px;
+  width: 100%;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+
+.list-place-categories {
+    margin-bottom: 0px;
+    padding: 15px 20px 15px 20px; 
+    /* border: black 1px solid; */
+}
+
+.list-place-categories:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+
+.places-card {
+    margin-top: 20px;
+    /* padding:  */
+    border: solid 3px #1a0154;
+}
+
+.places-card-img img {
+    width: 100%;
+}
+
+.places-card-address{
+    margin-top: 20px;
+    color: black; 
+}
+
+.places-border{
+    border-bottom: solid 3px #1a0154;
+}
+
+.places-card-number{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.places-card-address p,
+.places-card-hours p{
+    color: grey;
+}
+
+.places-card-direction{
+    padding-top: 8px;
+    color: #fff;
+    background-color: #1a0154;
+    text-align: center;
+}
+
+.list-place-categories:active {
+    background-color: black;
+}
+
+.mystyle {
+    background-color: black;
+    color: white;
+}
+
+.stateSelected{
+    color: white;
+    background-color: black;
+}
+
+.active {
+    color: white;
+    background-color: black;
+}

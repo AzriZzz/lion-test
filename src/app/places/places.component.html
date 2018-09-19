@@ -1,0 +1,50 @@
+<section id="places" class="spacer-places">
+  <div class="container">
+    <div class="header-title">Places</div>
+
+    <div class="places-categories" id="myDIV">
+      <label id class="list-place-categories btn" *ngFor="let filter of filtered_state;" 
+      for="examplePlacesCategories" (click)="filterByState(filter)">{{filter}}</label>
+    </div>
+
+    <div class="container">
+
+      <div class="row" >
+        <div class="col-sm-4 col-md-4" *ngFor="let state of statesTrue; ">
+          <div class="places-card">
+            <div class="places-card-img">
+              <img src="{{state.image}}" alt="Places Image">
+            </div>
+            <div class="container places-border">
+              <div class="places-card-address">
+                <h6>{{state.name}}</h6>
+                <p>{{state.address}} <br> {{state.state}}</p>
+              </div>
+              <div class="places-card-hours">
+                <h6>Operating Hours</h6>
+                <p>{{state.operation_hours}}</p>
+              </div>
+            </div>
+            <div class="places-card-number">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h6>Telephone</h6>
+                    <p>{{state.phone}}</p>
+                  </div>
+                  <div class="col-md-6">
+                    <!-- <h6>Fax</h6>
+                    <p>011-111 1111</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="places-card-direction">
+              <label for="getDirection">Get Directions</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

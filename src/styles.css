@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+.header-title {
+    font-weight: bold;
+    color: #696767;
+    border-bottom: solid red 1px;
+}
+
+.spacer {
+    margin-top: 20px;
+}
+
+.blog-content img{
+    padding-top: 10px;
+    width: 100%;
+}
+
+.blog-content p {
+    padding-top: 10px;
+    text-align: justify;
+    cursor: default;
+}
+
+.blogContent1:hover,
+.blogContent2:hover,
+.blogContent3:hover{
+    color: red;
+}
